@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "445424652962",
+    "firebase_url": "https://rent-wise-4eaf7-default-rtdb.firebaseio.com",
+    "project_id": "rent-wise-4eaf7",
+    "storage_bucket": "rent-wise-4eaf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445424652962:android:705f96906a80948c793dfb",
+        "android_client_info": {
+          "package_name": "com.honours_project_0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445424652962-sdva3sv02520c3kp1epaq0259gjq4719.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.honours_project_0",
+            "certificate_hash": "f8a0ee59e072c592c49229a272ce548f28d435a3"
+          }
+        },
+        {
+          "client_id": "445424652962-29s4fh6n16n060i67olcjsfdmb5heres.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVE-An-KxL_6y4OfYRn7_xSXhKCt9sUEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445424652962-29s4fh6n16n060i67olcjsfdmb5heres.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "445424652962-tupd11o34fcmj0rpvjpk9e35il79nc7d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.honours"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
