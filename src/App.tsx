@@ -53,7 +53,7 @@ export default function App() {
   return (
     <RootSiblingParent>
       <NavigationContainer>
-        <RootStack.Navigator initialRouteName={initialLoad ? 'Welcome' : 'Welcome'}
+        <RootStack.Navigator initialRouteName={initialLoad ? 'Welcome' : 'Login'}
           screenOptions={{
             headerShown: false,
           }}
@@ -141,22 +141,22 @@ const WelcomeScreen = ({navigation}) => {
       onSkip={() => navigation.replace('Login')}
       pages={[
         {
-          backgroundColor: '#fff',
+          backgroundColor: '#fcba03',
           image: <Image source={require('./assets/home.png')} style={{width: 200, height: 200}}/>,
-          title: 'Welcome to the app',
-          subtitle: 'This is a subtitle',
+          title: 'Rent Wise',
+          subtitle: 'An app to help you find your next home',
         },
         {
           backgroundColor: '#fff',
           image: <Image source={require('./assets/review.png')} style={{width: 200, height: 200}}/>,
-          title: 'Welcome to the app',
-          subtitle: 'This is a subtitle',
+          title: 'Connect with previous tenants',
+          subtitle: 'Contribute and review your experience',
         },
         {
-          backgroundColor: '#fff',
+          backgroundColor: '#8acfd4',
           image: <Image source={require('./assets/movein.png')} style={{width: 200, height: 200}}/>,
-          title: 'Welcome to the app',
-          subtitle: 'This is a subtitle',
+          title: 'Moving Date?',
+          subtitle: 'Enjoy your new home! ',
         },
       ]}
     />);
