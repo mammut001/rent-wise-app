@@ -53,7 +53,7 @@ export default function App() {
   return (
     <RootSiblingParent>
       <NavigationContainer>
-        <RootStack.Navigator initialRouteName={initialLoad ? 'Welcome' : 'Login'}
+        <RootStack.Navigator initialRouteName={initialLoad ? 'Login' : 'Login'}
           screenOptions={{
             headerShown: false,
           }}
